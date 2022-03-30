@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="shortcut icon" href="logo.png">
         <link rel="stylesheet" href="stylesheet.css">
         <title>Calculator</title>
     </head>
@@ -13,8 +14,8 @@
                 <div class="keyboard">
                     <table>
                         <tr>
-                            <td><button onclick="clean()" style="background-color: #ec1800; font-weight: bold; color: #ecf0f1;">C</button></td>
-                            <td><button onclick="back()" style="background-color: #fcf700; font-weight: bold; color: #ecf0f1;">CE</button></td>
+                            <td><button onclick="insert('(')">(</button></td>
+                            <td><button onclick="insert(')')">)</button></td>
                             <td><button onclick="insert('.')">.</button></td>
                             <td><button onclick="insert('/')">/</button></td>
                         </tr>
@@ -37,10 +38,10 @@
                             <td><button onclick="insert('+')">+</button></td>
                         </tr>
                         <tr>
-                            <td><button onclick="insert('(')">(</button></td>
                             <td><button onclick="insert(0)">0</button></td>
-                            <td><button onclick="insert(')')">)</button></td>
-                            <td><button onclick="equal()" style="background-color: #27d617; font-weight: bold; color: #ecf0f1;">=</button></td>
+                            <td><button onclick="back()" style="background-color: #FFB900; font-weight: bold; color: #ecf0f1;">CE</button></td>
+                            <td><button onclick="clean()" style="background-color: #F25022; font-weight: bold; color: #ecf0f1;">C</button></td>
+                            <td><button onclick="equal()" style="background-color: #7FBA00; font-weight: bold; color: #ecf0f1;">=</button></td>
                         </tr>
                     </table>
                 </div>
