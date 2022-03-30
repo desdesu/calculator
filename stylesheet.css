@@ -4,7 +4,7 @@ html {
     display: flex;
     justify-content: center;
     color: #ecf0f1;
-    background-color: rgb(23, 24, 37);
+    background-color: #464646;
     font-family: 'Fjalla One', sans-serif;
     animation: fadein 1.5s;
 }
@@ -22,6 +22,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .history{
@@ -40,7 +41,7 @@ h1 {
 }
 
 input {
-    background-color: rgba(52, 73, 94, 0.5);
+    background-color: rgba(110, 110, 110, 0.8);
     color: #ecf0f1;
     outline: none;
     text-align: right;
@@ -112,23 +113,4 @@ a:hover{
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     -o-transition: all ease 0.5s;
-}
-
-#turn {
-    display: none;
-    z-index: 100;
-    position: fixed;
-}
-
-@media (orientation: landscape) and (max-height: 500px) {
-    #turn {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        color: rgb(0, 18, 36);
-        background-color: rgba(236, 240, 241, 1.0);
-    }
 }
